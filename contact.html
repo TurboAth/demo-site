@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Acme Inc.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Acme Inc.</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <h2>Contact Us</h2>
+    <p>You can't actually contact us, but here is a nice-looking form. This page also uses the same `style.css` and `script.js` files.</p>
+    
+    <form action="#" method="get">
+      <div>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" style="width: 98%;">
+      </div>
+      <br>
+      <div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" style="width: 98%;">
+      </div>
+      <br>
+      <div>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" style="width: 98%;"></textarea>
+      </div>
+      <br>
+      <div>
+        <button type="submit">Send (Does Nothing)</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="current-year"></span> Acme Inc. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
